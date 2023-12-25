@@ -1,0 +1,39 @@
+/* Only the p elements that are descendants of the 
+div element should have a yellow background, red 
+text, a font size of 20px, and center aligned. */
+
+
+/* the first class is "container" (div), and the 
+second class is "text" (p). Ancestors are id'd by
+a simple space between the two classes.
+
+First example with only class identifiers:
+
+.container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+Example of both class and id: */
+
+#container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* This could be done with id's in the same way
+as long as the HTML has the elements listed as an
+id 
+
+Example: 
+#container #text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+*/
